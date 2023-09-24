@@ -7,8 +7,9 @@
 	padding: 0;
 }
 body {
-	background-color: #fafdd1;
-  	-webkit-font-smoothing: antialiased;
+
+	background: linear-gradient(to left,#fafdd1, #f9ffa1);
+	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
 
@@ -21,7 +22,7 @@ button {
 	width: 120px;
 	outline: 0;
 	border: 0;
-	border: 1px #4b4b4b solid;
+	border: 3px #4b4b4b solid;
 	border-radius: 10px;
 	font-weight: 500;
 	transition: 0.4s;
@@ -30,13 +31,18 @@ button {
   }
   
   button:hover {
+
 	background-color: #fdb19a;
 	outline: 1px #4b4b4b solid;
   }
 
+#header {
+	font-family: "Inter", sans-serif;
+	text-align: center;
+	padding: 40px;
+}  
 #container {
 	margin: auto;
-	margin-top: 10%;
 	height:500px;
 	width: 500px;
 	border: 2px rgb(75, 75, 75) solid;
@@ -45,7 +51,9 @@ button {
 	border-top-right-radius: 10%;
 	border-bottom-left-radius: 5%;
 	border-top-left-radius: 10px;
-	background-color: aqua;
+	background: linear-gradient(to top left,rgb(169, 252, 252), rgb(0, 247, 247));
+	border-right: 4px #4b4b4b solid;
+	border-bottom: 4px #4b4b4b solid;
 	z-index: -1;
 
 }
@@ -53,7 +61,8 @@ button {
 	margin: 18px;
 	height: 400px;
 	width: 400px;
-	background-color: rgb(37, 37, 37);
+	/* background-color: rgb(37, 37, 37); */
+	background: linear-gradient(to top left,rgb(37, 37, 37), rgb(75, 75, 75));
 	border-bottom: 5px rgb(200, 247, 255) solid;
 	border-right: 5px rgb(180, 252, 255) solid;
 	border-top: 5px rgb(105, 198, 214) solid;
