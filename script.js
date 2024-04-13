@@ -30,8 +30,8 @@ function changeBackground(event) {
 
 function createGrid(size=defaultDisplaySection) {
     const divElement = document.createElement("div");
-        divElement.style.width = `${ displaySize / size }px`;
-        divElement.style.height = `${ displaySize / size }px`;
+        divElement.style.width = `${ Math.floor(displaySize / size) }px`;
+        divElement.style.height = `${ Math.floor(displaySize / size) }px`;
         divElement.style.float = 'left';
         divElement.style.backgroundColor = 'rgb( 255, 255, 255)';
 
