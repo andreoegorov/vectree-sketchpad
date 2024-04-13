@@ -59,8 +59,8 @@ button {
 }
 #display{
 	margin: 18px;
-	height: 400px;
-	width: 400px;
+	height: 410px;
+	width: 410px;
 	/* background-color: rgb(37, 37, 37); */
 	background: linear-gradient(to top left,rgb(37, 37, 37), rgb(75, 75, 75));
 	border-bottom: 5px rgb(200, 247, 255) solid;
